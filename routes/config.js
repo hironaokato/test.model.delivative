@@ -4,9 +4,10 @@ var DM_PROJECT_VERSION = 'v1'; // Data Management
 var MD_PROJECT_VERSION = 'v2'; // Model Derivative
 
 module.exports = {
-    redirectUrl: process.env.CALLBACK_URL,
+    //redirectUrl: process.env.CALLBACK_URL,
+   redirectUrl: 'http://dev.example.com/',
 
-    defaultBucketKey: "adamnagy-20160611",
+    defaultBucketKey: "test",
 
     authenticationUrl: '/authentication/' + OAUTH_VERSION + '/authorize',
     accessTokenUrl: '/authentication/' + OAUTH_VERSION + '/gettoken',
